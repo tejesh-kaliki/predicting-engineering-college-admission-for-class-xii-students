@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1625 390">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #93278f;
+        font-family: Calibri-BoldItalic, Calibri;
+        font-size: 100.92px;
+        font-style: italic;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: Calibri-Bold, Calibri;
+        font-size: 85.55px;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-2);
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-6 {
+        font-weight: 700;
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-4" width="1625" height="390"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="146.84" y1="-66.87" x2="402.8" y2="305.42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#662d91"/>
+      <stop offset="1" stop-color="#662d91" stop-opacity=".22"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="71.66" y1="-180.75" x2="1807.7" y2="432.38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fc0"/>
+      <stop offset="1" stop-color="#f40"/>
+    </linearGradient>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="25"/>
+      <feGaussianBlur result="blur" stdDeviation="34"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g class="cls-3">
+      <g>
+        <path class="cls-7" d="m254.5,222.43L85.55-18.21l184.77-.17,222.07,316.3-92.32.09c-57.94.05-112.27-28.15-145.56-75.57Z"/>
+        <path class="cls-5" d="m1695,38.84v258.45H462.88c-73.94,0-143.33-35.72-186.28-95.91L107.88-35l402.38.1,21.99,30.82c19.23,26.94,50.28,42.92,83.37,42.92h1079.37Z"/>
+        <text class="cls-6" transform="translate(429.65 159.45)"><tspan class="cls-2"><tspan x="0" y="0">ENGINEERING</tspan></tspan><tspan class="cls-1"><tspan x="0" y="82.46">ADMISSION</tspan></tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

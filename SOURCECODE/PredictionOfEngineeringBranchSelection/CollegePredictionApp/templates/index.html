@@ -1,0 +1,87 @@
+{% load static %}
+<html>
+  <head>
+    <title>
+      Prediction Of Engineering College Selection For Inter Students
+    </title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link href="{% static 'style.css' %}" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div
+      class="main"
+      style="
+        background-image: url('{% static 'images/background.svg' %}');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        min-height: 100vh;
+      "
+    >
+      <nav class="navbar navbar-expand-md pb-0 pt-3 sticky-top">
+        <div
+          class="container-md p-1 rounded-pill bg-lightblue shadow border border-3 border-blue"
+        >
+          <span class="navbar-brand h1 mb-0 ms-3 fw-bold"
+            >Prediction of Engineering College for Inter Students</span
+          >
+          <ul class="navbar-nav ms-auto me-2">
+            <li class="nav-item">
+              <a class="nav-link active" href="{% url 'index' %}">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'AdminLogin' %}">Admin-Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'UserLogin' %}">Login</a>
+            </li>
+          </ul>
+          <a class="btn btn-outline-success me-5" href="{% url 'Signup' %}"
+            >Sign Up</a
+          >
+        </div>
+      </nav>
+      <div class="content">
+        <div class="w-50 ms-auto">
+          <img
+            class="img-fluid"
+            src="{% static 'images/admissions2.svg' %}"
+            alt=""
+          />
+        </div>
+        <div class="content-bg mx-auto">
+          {{ data }}
+
+          <h1 class="text-center fw-bold">Abstract</h1>
+
+          <p>
+            Student by himself is not mature enough to take right decision in
+            his early life. Selecting wrong courses means mismatch between
+            student aptitude, capability and self interest. Faculty or parents
+            have neither the required knowledge nor experience.
+          </p>
+          <p>
+            Since there is no other reliable source generally available that can
+            guide the studenttowards the most suitable direction, so this
+            recommender system has been evolved to provide him guidance in
+            selecting a right engineering branch. This system recommend them
+            suitable branch based on their score. In this system, K nearest
+            neighbors is used to recommend branch and collaborative filtering is
+            used to recommend colleges.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
